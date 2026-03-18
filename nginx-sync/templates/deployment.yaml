@@ -10,7 +10,7 @@ metadata:
     argocd.argoproj.io/hook-delete-policy: HookSucceeded
     argocd.argoproj.io/sync-wave: "4"
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app.kubernetes.io/name: external-app
